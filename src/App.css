@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+    color: #000000; 
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(204, 204, 204, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #0a5427; 
+    color: #ffffff; 
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0a5427; 
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #465e83; 
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .item-galeria {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 220px;
+  }
+  
+  .item-galeria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  
+  .item-galeria p {
+    margin: 10px 0;
+  }
+  
+  .item-galeria button {
+    background-color: #f44336;
+  }
+  
+  .item-galeria button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .preview-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
